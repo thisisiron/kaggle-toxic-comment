@@ -4,7 +4,7 @@ From https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 
  
 ## Accuracy
-![accuracy.png](./image/accuracy.png)
+![Accuracy.png](./image/Accuracy.png)
 
 ## Reference
 Yoon Kim : 
