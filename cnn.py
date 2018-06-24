@@ -5,9 +5,6 @@ import numpy as np
 
 
 class TextCNN(object):
-    """
-
-    """
     def __init__(
       self, sequence_length, num_classes, vocab_size,
       embedding_size, filter_sizes, num_filters):
@@ -88,7 +85,7 @@ class TextCNN(object):
             b1 = tf.Variable(tf.truncated_normal(shape=[100],stddev = 0.05), name="b1")
             layer1 = tf.nn.xw_plus_b(self.h_drop, W1, b1, name="layer1")
             layer1 = tf.nn.relu(layer1)
-
+            
         with tf.name_scope("layer2"):
             W2 = tf.get_variable(
                 "W2",
