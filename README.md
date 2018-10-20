@@ -8,4 +8,4 @@ From https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 
 ## Reference
 Yoon Kim : 
-Convolutional Neural Networks for Sentence Classification (https://arxiv.org/abs/1408.5882)
+[Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)
